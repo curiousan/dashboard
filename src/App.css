@@ -1,0 +1,84 @@
+.navbar {
+    padding: 1.2em 0.7em;
+}
+
+.buttons{
+    margin: 0 auto;
+    width: 300px;
+    padding: .5em 2.7em;
+}
+
+.buttons .right-side{
+    width: 265px;
+}
+
+.btn{
+    border: 1px solid;
+    margin: .3em;
+    color: white;
+    width: 10em;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.d-block:nth-child(1)> .btn {
+    background: #3b5998;
+}
+.d-block:nth-child(1):hover > .btn{
+    background: white;
+    color: #3b5998;
+}
+.d-block:nth-child(2) > .btn{
+    background: #4875B4;
+}
+.d-block:nth-child(2):hover > .btn{
+    background: white;
+    color: #4875B4;
+}
+.d-block:nth-child(3) > .btn{
+    background: #ee5a30;
+}
+.d-block:nth-child(3):hover > .btn{
+    background: white;
+    color: #ee5a30;
+}
+.d-block:nth-child(4) > .btn{
+    background: #0a7142;
+}
+.d-block:nth-child(4):hover > .btn{
+    background: white;
+    color: #0a7142;
+}
+
+.cross-icon-holder {
+    border: 1px solid;
+    padding: .7em;
+    color: var(--red);
+    position: relative;
+}
+.cross-icon-holder:hover {
+    cursor: pointer;
+    color: white;
+    background: var(--red);
+}
+
+.cross-icon{
+    position: relative;
+    top: .2em;
+}
+
+.forms {
+    margin: 4em auto;
+    padding: 3em;
+    width: 700px;
+    border: 1px solid;
+}
+.eye-icon {
+    position: relative;
+    top: -2em;
+    float: right;
+    right: 2em;
+    cursor: pointer;
+}
